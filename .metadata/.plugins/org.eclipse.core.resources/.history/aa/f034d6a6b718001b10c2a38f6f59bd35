@@ -1,0 +1,23 @@
+package operadoresLogicos;
+
+import java.math.*;
+
+
+public class classeOperadoresLogicos {
+
+	public static void main(String[] args) {
+		boolean ult3EmprestQuitadosPrazo, possuiRendaComprovada, clientDeztelas;
+		
+		ult3EmprestQuitadosPrazo = false;
+		possuiRendaComprovada = false;
+		clientDeztelas = true;
+		
+		boolean concederEmprestimo = ult3EmprestQuitadosPrazo && possuiRendaComprovada || clientDeztelas;
+		
+		System.out.printf("Emprestimo concedido? \n%b",  concederEmprestimo);
+		
+		
+
+	}
+
+}

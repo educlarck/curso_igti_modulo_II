@@ -1,0 +1,18 @@
+package pacoteExemplo;
+
+public class ClasseExemplo {
+
+	public static void main(String[] args) {
+		
+		String nome, nome2;
+		nome = "Eduardo Clarck Duarte Gomes";
+		nome2 = "Jessica Castro Araujo";
+		
+		System.out.println(nome);
+		System.out.println(nome2);
+		
+		
+
+	}
+
+}
